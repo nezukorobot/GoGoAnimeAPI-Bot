@@ -2,7 +2,7 @@ import glob
 import logging
 from pathlib import Path
 from Anime_Downloader_Probot.helper import load_plugins
-from Anime_Downloader_Probot import GogoAnime
+from Anime_Downloader_Probot import gogoanime
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
